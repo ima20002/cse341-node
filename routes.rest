@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/contacts/626747bb406bd49c040fa2b1
+###
+GET http://localhost:8080/contacts/626747bb406bd49c040fa2b2
+###
+GET http://localhost:8080/contacts/626747bb406bd49c040fa2b3
+
+// Production
+###
+GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b1
+###
+GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b2
+###
+GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b3

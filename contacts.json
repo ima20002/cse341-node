@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Harry",
+        "lastName": "Potter",
+        "email": "harryPotter@hps.com",
+        "favoriteColor": "red",
+        "birthday": "07/31/1980"
+    },
+    "contact2": {
+        "firstName": "Hermione",
+        "lastName": "Granger",
+        "email": "hermioneGranger@hps.com",
+        "favoriteColor": "violet",
+        "birthday": "09/19/79"
+    },
+    "contact3": {
+        "firstName": "Ron",
+        "lastName": "Weasley",
+        "email": "ronWeasley@hps.com",
+        "favoriteColor": "orange",
+        "birthday": "03/01/80"
+    }
+}
