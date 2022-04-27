@@ -1,4 +1,4 @@
-const express = require('express') 
+const express = require('express')
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
 
@@ -17,7 +17,7 @@ app.use(bodyParser.json()).use((req, res, next) => {
   next();
 }).use('/', require('./routes'));
 
-// Database init
+// Database initization
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);
