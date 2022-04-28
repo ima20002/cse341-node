@@ -2,11 +2,11 @@
 ### Get all contacts
 GET http://localhost:8080/contacts
 ### contact1
-GET http://localhost:8080/contacts/626747bb406bd49c040fa2b1
+GET http://localhost:8080/contacts/6269e6b6406bd49c040fa2b7
 ### contact2
-GET http://localhost:8080/contacts/626747bb406bd49c040fa2b2
+GET http://localhost:8080/contacts/6269e6b6406bd49c040fa2b8
 ### contact3
-GET http://localhost:8080/contacts/626747bb406bd49c040fa2b3
+GET http://localhost:8080/contacts/6269e6b6406bd49c040fa2b9
 
 ### Create a new contact
 POST http://localhost:8080/contacts
@@ -21,7 +21,7 @@ Content-Type: application/json
 }
 
 ### Update Harry's contact
-PUT http://localhost:8080/contacts/626747bb406bd49c040fa2b1
+PUT http://localhost:8080/contacts/6269e6b6406bd49c040fa2b7
 Content-Type: application/json
 
 {
@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 
 ### Delete Harry's contact
-DELETE http://localhost:8080/contacts/626747bb406bd49c040fa2b1
+DELETE http://localhost:8080/contacts/6269e6b6406bd49c040fa2b7
 
 
 
@@ -43,11 +43,11 @@ DELETE http://localhost:8080/contacts/626747bb406bd49c040fa2b1
 ### Get all contacts
 GET https://cse341-node-api.herokuapp.com/contacts
 ### contact1
-GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b1
+GET https://cse341-node-api.herokuapp.com/contacts/6269e6b6406bd49c040fa2b7
 ### contact2
-GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b2
+GET https://cse341-node-api.herokuapp.com/contacts/6269e6b6406bd49c040fa2b8
 ### contact3
-GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b3
+GET https://cse341-node-api.herokuapp.com/contacts/6269e6b6406bd49c040fa2b9
 
 ### Create a new contact
 POST https://cse341-node-api.herokuapp.com/contacts
@@ -62,7 +62,7 @@ Content-Type: application/json
 }
 
 ### Update Harry's contact
-PUT https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b1
+PUT https://cse341-node-api.herokuapp.com/contacts/6269e6b6406bd49c040fa2b7
 Content-Type: application/json
 
 {
@@ -74,4 +74,4 @@ Content-Type: application/json
 }
 
 ### Delete Harry's contact
-DELETE https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b1
+DELETE https://cse341-node-api.herokuapp.com/contacts/6269e6b6406bd49c040fa2b7
