@@ -14,6 +14,7 @@ const initDb = (callback) => {
   // Start conenction using provided URI credential
   MongoClient.connect(process.env.MONGODB_URI)
     .then((client) => {
+      // Retrieve database data
       _db = client;
       callback(null, _db);
     })
@@ -22,7 +23,7 @@ const initDb = (callback) => {
     });
 };
 
-// for getting DB data
+// for returning DB data
 const getDb = () => {
   if (!_db) {
     throw Error('Db not initialized');
