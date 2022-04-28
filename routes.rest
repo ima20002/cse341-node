@@ -1,15 +1,16 @@
-###
+// Local
+### Get all contacts
 GET http://localhost:8080/contacts
-###
+### contact1
 GET http://localhost:8080/contacts/626747bb406bd49c040fa2b1
-###
+### contact2
 GET http://localhost:8080/contacts/626747bb406bd49c040fa2b2
-###
+### contact3
 GET http://localhost:8080/contacts/626747bb406bd49c040fa2b3
 
-### Create new contact
+### Create a new contact
 POST http://localhost:8080/contacts
-content-type: application/json
+Content-Type: application/json
 
 {
     "firstName":"Rubeus",
@@ -19,7 +20,7 @@ content-type: application/json
     "birthday":"12/06/28"
 }
 
-###
+### Update Harry's contact
 PUT http://localhost:8080/contacts/626747bb406bd49c040fa2b1
 Content-Type: application/json
 
@@ -31,19 +32,46 @@ Content-Type: application/json
     "birthday":"01/01/80"
 }
 
-###
+### Delete Harry's contact
 DELETE http://localhost:8080/contacts/626747bb406bd49c040fa2b1
 
 
 
 
 
-// Production
-###
+// Heroku Production
+### Get all contacts
 GET https://cse341-node-api.herokuapp.com/contacts
-###
+### contact1
 GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b1
-###
+### contact2
 GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b2
-###
+### contact3
 GET https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b3
+
+### Create a new contact
+POST https://cse341-node-api.herokuapp.com/contacts
+Content-Type: application/json
+
+{
+    "firstName":"Rubeus",
+    "lastName":"Hagrid",
+    "email":"rubeusHagrid@hps.com",
+    "favoriteColor":"I don't know",
+    "birthday":"12/06/28"
+}
+
+### Update Harry's contact
+PUT https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b1
+Content-Type: application/json
+
+{
+    "firstName":"Harry",
+    "lastName":"Potter",
+    "email":"harryPotterSecondEmail@hps.com",
+    "favoriteColor":"I don't know",
+    "birthday":"01/01/80"
+}
+
+### Delete Harry's contact
+DELETE https://cse341-node-api.herokuapp.com/contacts/626747bb406bd49c040fa2b1
