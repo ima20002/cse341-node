@@ -7,9 +7,10 @@ GET http://localhost:8080/contacts/626747bb406bd49c040fa2b2
 ###
 GET http://localhost:8080/contacts/626747bb406bd49c040fa2b3
 
-### 
+### Create new contact
 POST http://localhost:8080/contacts
-Content-Type: application/json
+content-type: application/json
+
 {
     "firstName":"Rubeus",
     "lastName":"Hagrid",
@@ -21,6 +22,7 @@ Content-Type: application/json
 ###
 PUT http://localhost:8080/contacts/626747bb406bd49c040fa2b1
 Content-Type: application/json
+
 {
     "firstName":"Harry",
     "lastName":"Potter",

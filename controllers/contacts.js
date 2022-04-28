@@ -71,6 +71,7 @@ const putContact = async (req, res, next) => {
     }
 };
 
+// Delete an existing contact
 const deleteContact = async (req, res, next) => {
     // retrieve the id to be deleted from request params
     const userId = new ObjectId(req.params.id);
